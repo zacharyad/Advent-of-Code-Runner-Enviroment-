@@ -1,0 +1,11 @@
+{
+  "name": "aoc",
+  "version": "1.0.0",
+  "description": "Advent of code problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "zacharyad",
+  "license": "ISC"
+}
