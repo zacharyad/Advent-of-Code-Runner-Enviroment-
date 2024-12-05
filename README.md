@@ -36,6 +36,8 @@ This app is your **Advent of Code companion**! It creates the files you need, or
 
 ### Installation:
 1. Clone this repository: 
+   1. SSH: git@github.com:zacharyad/Advent-of-Code-Runner-Enviroment-.git
+   2. HTTP: https://github.com/zacharyad/Advent-of-Code-Runner-Enviroment-.git
 
 
 ### 🛠️ Usage

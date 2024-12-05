@@ -4,7 +4,7 @@
   "description": "Advent of code problems",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "clear && node index.js"
   },
   "author": "zacharyad",
   "license": "ISC"
