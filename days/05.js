@@ -30,6 +30,16 @@ let inst = fs
   );
 
 // Part ONE
+function loopThroughInstuctions(ords, inst) {
+  return ords.reduce((cnt, ord) => {
+    if (testOrder(ord, inst)) {
+      let midElem = getMiddle(ord);
+      cnt += Number(midElem);
+    }
+    return cnt;
+  }, 0);
+}
+
 function testOrder(order, instructions) {
   let l = 0;
   let r = 1;
@@ -51,16 +61,6 @@ function testOrder(order, instructions) {
 
 function getMiddle(array) {
   return array[Math.floor(array.length / 2)];
-}
-
-function loopThroughInstuctions(ords, inst) {
-  return ords.reduce((cnt, ord) => {
-    if (testOrder(ord, inst)) {
-      let midElem = getMiddle(ord);
-      cnt += Number(midElem);
-    }
-    return cnt;
-  }, 0);
 }
 
 // Part TWO
